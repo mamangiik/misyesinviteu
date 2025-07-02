@@ -1,7 +1,9 @@
 #!/bin/bash
-echo "📌 Ganti link /wordpress/catalog jadi domain Vercel..."
 
-find . -type f -name "*.html" -exec sed -i 's|/wordpress/catalog|https://misyesinviteu.vercel.app/catalog|g' {} +
+echo "🔍 Menjalankan fix-static-links.sh ..."
+echo "📌 Replace href=\"demo- dengan href=\"/demo-"
 
-echo "✅ Semua link sudah diganti!"
+find ./ -type f -name "*.html" -exec sed -i 's|href="demo-|href="/demo-|g' {} +
+
+echo "✅ Semua href link demo sudah diawali dengan /"
 
