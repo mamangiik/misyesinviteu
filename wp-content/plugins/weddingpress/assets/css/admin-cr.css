@@ -460,7 +460,7 @@ th.rsc-options-info .rsc-tooltip-wrap {
 
 .rsc_tooltip_hover:before {
     content: "";
-    background: url(https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite.png) no-repeat;
+    background: url(https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite.png) no-repeat;
     background-position: 7px 5px;
     width: 20px;
     height: 20px;
@@ -469,7 +469,7 @@ th.rsc-options-info .rsc-tooltip-wrap {
 }
 
 .rsc_tooltip_hover:hover:before {
-    background: url(https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite.png) no-repeat;
+    background: url(https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite.png) no-repeat;
     background-position: 7px -60px;
 }
 
@@ -494,7 +494,7 @@ th.rsc-options-info .rsc-tooltip-wrap {
 
 .rsc-tooltip:before {
     content: "";
-    background: url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat;
+    background: url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat;
     background-position: 7px 5px;
     width: 20px;
     height: 20px;
@@ -756,13 +756,13 @@ th.rsc-options-info .rsc-tooltip-wrap {
     width: 45px;
     height: 45px;
     position: absolute;
-    background:url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/box-corner.png') no-repeat;
+    background:url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/box-corner.png') no-repeat;
     left: -45px;
     bottom: 0;
 }
 
 .rsc-premium-section .rsc-rouned-box {
-    background:url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/box-corner-gray.png') no-repeat;
+    background:url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/box-corner-gray.png') no-repeat;
 }
 
 .rsc-already-featured {
@@ -777,7 +777,7 @@ th.rsc-options-info .rsc-tooltip-wrap {
 
 .rsc-already-featured:before {
     content: "";
-    background:url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat 0 -11px;
+    background:url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat 0 -11px;
     background-position: 0 -11px;
     width: 17px;
     height: 12px;
@@ -821,7 +821,7 @@ th.rsc-options-info .rsc-tooltip-wrap {
 
 .rsc-premium-features-button .rsc-premium-icon:before {
     content: "";
-    background:url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat;
+    background:url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite.png') no-repeat;
     background-position: 0 -29px;
     width: 17px;
     height: 15px;
@@ -1711,7 +1711,7 @@ only screen and (min-device-pixel-ratio: 2) {
     .rsc-already-featured:before,
     .rsc-premium-features-button .rsc-premium-icon:before,
     .rsc-tooltip:before {
-        background-image: url('https://mamangiik.github.io/misyesinviteu/wp-content/plugins/weddingpress/assets/assets/images/sprite@2x.png');
+        background-image: url('https://misyesinviteu.vercel.app/wp-content/plugins/weddingpress/assets/assets/images/sprite@2x.png');
         background-repeat: no-repeat;
         background-size: 16px auto;
     }
