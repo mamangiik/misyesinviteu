@@ -1,5 +1,13 @@
 #!/bin/bash
-echo "📌 Replace href=\"demo- with href=\"/catalog/demo-"
-find ./catalog -type f -name "*.html" -exec sed -i 's|href="demo-|href="/catalog/demo-|g' {} +
-echo "✅ Semua href link demo sudah diawali dengan /catalog/"
+
+echo "🔍 Mencari dan mengganti semua link demo..."
+
+# Ganti semua href="http://demo-undangan- dengan href="/catalog/demo-undangan-
+find ./ -type f -name "*.html" -exec sed -i 's|href="http://demo-undangan-|href="/catalog/demo-undangan-|g' {} +
+
+echo "✅ Semua link href sudah diperbaiki ke /catalog/"
+
+# Opsi: Cek hasilnya
+grep -r 'href="http://demo-' .
+grep -r 'href="/catalog/demo-' .
 
